@@ -147,3 +147,5 @@ export PYTHONPATH=$PYTHONPATH:`rospack find openrtm`/lib/python2.6/site-packages
 # 以下はrosmake openrtm --rosdep-install をすると生成されるはず
 source `rospack find openrtm`/scripts/rtshell-setup.sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`rospack find openrtm`/lib
+
+#end
